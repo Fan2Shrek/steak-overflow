@@ -5,9 +5,10 @@ namespace Drupal\test\Controller;
 use Drupal\Core\Controller\ControllerBase;
 use Drupal\node\Entity\Node;
 
+
 class TestController extends ControllerBase
 {
-    public function list()
+    public function list(): array
     {
         return [
             '#theme' => 'main',
@@ -16,7 +17,11 @@ class TestController extends ControllerBase
 
     public function seeAll(): array
     {
-        $nids = \Drupal::entityQuery('node')->condition('type', 'article')->accessCheck()->sort('title')->execute();
+        $nids = \Drupal::entityQuery('node')
+            ->condition('type', 'article')
+            ->accessCheck()
+            ->sort('title')
+            ->execute();
         $nodes =  Node::loadMultiple($nids);
         $viewBuilder = \Drupal::entityTypeManager()->getViewBuilder('node');
 
