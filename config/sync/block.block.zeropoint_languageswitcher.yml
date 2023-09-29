@@ -1,0 +1,22 @@
+uuid: afda2b44-ff0a-4a94-96c1-26dd921c7a36
+langcode: en
+status: true
+dependencies:
+  module:
+    - language
+  theme:
+    - zeropoint
+_core:
+  default_config_hash: L0Xb2o9pjtS8DCSDTpei8RuMOn0Rz98M-cIqvlQCTwg
+id: zeropoint_languageswitcher
+theme: zeropoint
+region: topreg
+weight: 1
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

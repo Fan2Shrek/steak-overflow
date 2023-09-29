@@ -1,0 +1,64 @@
+uuid: 5f588b5d-3fc4-454b-aa35-b73ad3d33043
+langcode: fr
+status: true
+dependencies:
+  config:
+    - filter.format.response
+  module:
+    - ckeditor5
+format: response
+editor: ckeditor5
+settings:
+  toolbar:
+    items:
+      - codeBlock
+      - blockQuote
+      - sourceEditing
+  plugins:
+    ckeditor5_codeBlock:
+      languages:
+        -
+          label: 'Plain text'
+          language: plaintext
+        -
+          label: C
+          language: c
+        -
+          label: 'C#'
+          language: cs
+        -
+          label: C++
+          language: cpp
+        -
+          label: CSS
+          language: css
+        -
+          label: Diff
+          language: diff
+        -
+          label: HTML
+          language: html
+        -
+          label: Java
+          language: java
+        -
+          label: JavaScript
+          language: javascript
+        -
+          label: PHP
+          language: php
+        -
+          label: Python
+          language: python
+        -
+          label: Ruby
+          language: ruby
+        -
+          label: TypeScript
+          language: typescript
+        -
+          label: XML
+          language: xml
+    ckeditor5_sourceEditing:
+      allowed_tags: {  }
+image_upload: {  }

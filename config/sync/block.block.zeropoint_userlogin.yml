@@ -1,0 +1,22 @@
+uuid: b4ae95e2-a287-4421-901b-b32b60a55ec1
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - zeropoint
+_core:
+  default_config_hash: 1YVkkEbkys4VrF9kMSGCC0r4vhdMsVq5lW-4rmRIH6Y
+id: zeropoint_userlogin
+theme: zeropoint
+region: sidebar_second
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d1a9c762-2d1f-48ff-8ae5-0b104473d0ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - zeropoint
+_core:
+  default_config_hash: z23qJA7Lc9jbCFC_1e5Mcu3aHLaSyhyqAnZon1gHGtw
+id: zeropoint_content
+theme: zeropoint
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

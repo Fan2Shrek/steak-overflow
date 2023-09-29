@@ -1,0 +1,24 @@
+uuid: 20cdd1d3-6279-426c-857e-1487eefafe87
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.dernieres_questions
+  module:
+    - views
+  theme:
+    - default
+id: default_views_block__dernieres_questions_block_1
+theme: default
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:dernieres_questions-block_1'
+settings:
+  id: 'views_block:dernieres_questions-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 22c3fe22-6c26-4e3b-9fbf-8957d3cea41d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - zeropoint
+_core:
+  default_config_hash: 0sXDOYGUu85FvekYjhiwGyZePogle2jeDjBQjW1rjgA
+id: zeropoint_local_tasks
+theme: zeropoint
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }
