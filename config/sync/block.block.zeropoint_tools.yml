@@ -1,5 +1,5 @@
 uuid: 227a49b8-801a-4e0a-8ec8-f0d702898062
-langcode: en
+langcode: fr
 status: true
 dependencies:
   config:
@@ -18,7 +18,7 @@ provider: null
 plugin: 'system_menu_block:tools'
 settings:
   id: 'system_menu_block:tools'
-  label: Tools
+  label: Outils
   label_display: visible
   provider: system
   level: 1

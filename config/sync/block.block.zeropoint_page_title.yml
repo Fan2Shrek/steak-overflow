@@ -1,5 +1,5 @@
 uuid: c8c57ad9-66aa-4e4c-a300-63e40e0c2720
-langcode: en
+langcode: fr
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Page title'
+  label: 'Titre de page'
   label_display: '0'
   provider: core
 visibility:

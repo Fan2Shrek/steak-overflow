@@ -1,5 +1,6 @@
 _core:
   default_config_hash: wU9Q9iL05oiypXRtm-0qQ1uYwYDxiAwZFIuQVcs4msM
+langcode: fr
 features:
   comment_user_picture: true
   comment_user_verification: true
