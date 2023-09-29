@@ -1,6 +1,6 @@
 uuid: 9fa52449-01ce-438b-a8f4-e74682f77a8f
 langcode: fr
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: default_powered
 theme: default
-region: primary_menu
-weight: 4
+region: footer
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

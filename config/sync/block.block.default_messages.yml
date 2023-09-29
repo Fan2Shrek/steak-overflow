@@ -11,7 +11,7 @@ _core:
 id: default_messages
 theme: default
 region: primary_menu
-weight: -2
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:

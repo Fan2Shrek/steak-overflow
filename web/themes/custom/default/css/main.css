@@ -54,7 +54,7 @@
   width: 360px;
   height: 100%;
   position: fixed;
-  top: 155px;
+  top: 76px;
   right: 0;
   border-left: 2px solid #ccc;
   vertical-align: top;
@@ -80,6 +80,23 @@
 
 .main-content {
   margin-right: 260px;
+}
+
+footer {
+  margin-top: 50px;
+  height: 225px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.708);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+}
+footer a {
+  color: white;
+}
+footer a:visited {
+  color: white;
 }
 
 .question__container {
@@ -116,6 +133,7 @@
 }
 .question__container .comments__container h3 {
   font-size: 2.5em;
+  margin-top: 50px;
 }
 .question__container .comments__container h3:after {
   content: " :";

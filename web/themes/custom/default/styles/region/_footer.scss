@@ -1,0 +1,18 @@
+footer {
+  margin-top: 50px;
+  height: 225px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.708);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+
+  a {
+    color: white;
+
+    &:visited {
+      color: white;
+    }
+  }
+}
