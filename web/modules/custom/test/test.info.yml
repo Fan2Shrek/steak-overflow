@@ -1,0 +1,5 @@
+name: Test drupal
+description: Testing functionalities
+package: Test
+type: module
+core_version_requirement: ^10

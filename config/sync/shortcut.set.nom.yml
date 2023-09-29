@@ -1,0 +1,6 @@
+uuid: e04f3262-a05a-4bf4-bb30-3019411c2e22
+langcode: fr
+status: true
+dependencies: {  }
+id: nom
+label: Nom

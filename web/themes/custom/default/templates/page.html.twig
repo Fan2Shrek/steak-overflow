@@ -1,0 +1,20 @@
+<div>
+    <div class="main-wrapper">
+    {% if page.top %}
+      <section class="main--top">
+        {{ page.top }}
+      </section>
+    {% endif %}
+
+    {{ page.primary_menu }}
+    <section class="main-content">
+      {{ page.content }}
+      <div class='sidebar'>
+        {{ page.sidebar }}
+      </div>
+    </section>
+  </div>
+
+    {{ page.botom }}
+    {{ page.footer }}
+</div>

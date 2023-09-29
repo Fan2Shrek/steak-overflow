@@ -1,0 +1,10 @@
+<div class='question__container'>
+	<h2>{{ node.title.value }}</h2>
+	<div class='question__body'>
+		{{ node.body.value | raw }}
+	</div>
+
+	<div class='response__container'>
+		{{ content.field_reponses }}
+	</div>
+</div>

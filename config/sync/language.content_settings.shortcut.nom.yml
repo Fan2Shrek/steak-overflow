@@ -1,0 +1,11 @@
+uuid: ce02dfd0-f640-460e-9147-9bd1bcf8918e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - shortcut.set.nom
+id: shortcut.nom
+target_entity_type_id: shortcut
+target_bundle: nom
+default_langcode: site_default
+language_alterable: false

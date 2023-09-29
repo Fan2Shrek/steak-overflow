@@ -1,0 +1,14 @@
+test.official:
+  path: "/test/officiel"
+  defaults:
+    _controller: '\Drupal\test\Controller\TestController::list'
+  requirements:
+    _permission: "access content"
+
+test.article.all:
+  path: "/test/articles"
+  defaults:
+    _title: 'Tous les articles'
+    _controller: '\Drupal\test\Controller\TestController::seeAll'
+  requirements:
+    _permission: "access content"

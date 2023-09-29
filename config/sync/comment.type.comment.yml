@@ -1,0 +1,10 @@
+uuid: 9477c53f-542c-4d9a-bb74-14940fbd1805
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: Réponses
+target_entity_type_id: node
+description: 'Autorise à répondre à une question'

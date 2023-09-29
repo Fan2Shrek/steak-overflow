@@ -1,0 +1,22 @@
+uuid: bcb8a4cb-3cdf-492b-bba0-d54a13910789
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: question_pattern
+label: 'Question pattern'
+type: 'canonical_entities:node'
+pattern: '[node:nid]/[node:title]'
+selection_criteria:
+  1ffe34e8-b050-4126-8cbf-2ed2f6a262db:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 1ffe34e8-b050-4126-8cbf-2ed2f6a262db
+    context_mapping:
+      node: node
+    bundles:
+      question: question
+selection_logic: and
+weight: -5
+relationships: {  }

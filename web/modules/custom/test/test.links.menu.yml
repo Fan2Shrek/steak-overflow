@@ -1,0 +1,17 @@
+test.config:
+  title: 'Configuration Test'
+  parent: system.admin
+  weight: 100
+  route_name: <nolink>
+
+test.config.pages:
+  title: 'Configuration des pages'
+  parent: test.config
+  weight: 100
+  route_name: test.article.all
+
+test.config.api:
+  title: 'Configuration API'
+  parent: test.config
+  weight: 101
+  route_name: test.official

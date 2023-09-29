@@ -1,0 +1,10 @@
+uuid: 194e7335-9da2-4be0-a023-fbf4191d1d43
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+id: user.test
+label: test
+targetEntityType: user
+cache: true

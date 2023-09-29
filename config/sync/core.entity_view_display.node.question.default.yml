@@ -1,0 +1,40 @@
+uuid: 0a6b7ffa-309f-4dd2-81c9-d97db3d1b22e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.question.body
+    - field.field.node.question.field_reponses
+    - node.type.question
+  module:
+    - comment
+    - text
+    - user
+id: node.question.default
+targetEntityType: node
+bundle: question
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_reponses:
+    type: comment_default
+    label: above
+    settings:
+      view_mode: default
+      pager_id: 0
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

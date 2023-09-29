@@ -1,0 +1,9 @@
+@use "region/header";
+@use "region/content";
+@use "region/sidebar";
+@use "node/question";
+
+* {
+  margin: 0;
+  //   border: 1px red solid;
+}

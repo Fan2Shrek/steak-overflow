@@ -1,0 +1,36 @@
+.sidebar {
+  width: 360px;
+  height: 100%;
+  position: fixed;
+  top: 155px;
+  right: 0;
+  border-left: 2px solid #ccc;
+  vertical-align: top;
+
+  .recent-questions {
+    margin-top: 20px;
+    text-align: center;
+
+    h4 {
+      font-size: 2em;
+      margin-bottom: 10px;
+
+      &:after {
+        content: ":";
+      }
+    }
+
+    .field-content a {
+      font-size: 1.25em;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.main-content {
+  margin-right: 260px;
+}

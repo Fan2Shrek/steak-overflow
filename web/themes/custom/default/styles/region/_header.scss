@@ -1,0 +1,61 @@
+.header {
+  //   position: fixed;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  align-items: center;
+  background-color: grey;
+
+  img {
+    height: 50px;
+  }
+
+  #block-default-site-branding {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+    a {
+      margin-left: 20px;
+    }
+
+    a:not(:nth-child(1)) {
+      font-size: 25px;
+      color: #aaa;
+      text-decoration: none;
+    }
+
+    &:visited {
+      color: #aaa;
+    }
+  }
+
+  nav > ul {
+    display: flex;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      margin-inline: 20px;
+
+      a {
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        color: white;
+      }
+
+      &:visited {
+        color: black;
+      }
+    }
+  }
+}
+
+.search__container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
