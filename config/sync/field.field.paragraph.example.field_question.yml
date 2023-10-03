@@ -1,0 +1,29 @@
+uuid: 2ada242a-0447-4a5c-bfcd-88920d1b51e3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_question
+    - node.type.question
+    - paragraphs.paragraphs_type.example
+id: paragraph.example.field_question
+field_name: field_question
+entity_type: paragraph
+bundle: example
+label: Question
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      question: question
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

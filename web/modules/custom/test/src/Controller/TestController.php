@@ -18,10 +18,11 @@ class TestController extends ControllerBase
     public function seeAll(): array
     {
         $nids = \Drupal::entityQuery('node')
-            ->condition('type', 'article')
+            ->condition('type', 'question')
             ->accessCheck()
             ->sort('title')
             ->execute();
+
         $nodes =  Node::loadMultiple($nids);
         $viewBuilder = \Drupal::entityTypeManager()->getViewBuilder('node');
 

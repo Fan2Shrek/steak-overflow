@@ -1,5 +1,4 @@
 .header {
-  //   position: fixed;
   height: 75px;
   display: flex;
   flex-direction: row;
@@ -7,6 +6,9 @@
   border-bottom: 1px solid black;
   align-items: center;
   background-color: grey;
+  position: absolute;
+  width: 100%;
+  top: 0;
 
   img {
     height: 50px;

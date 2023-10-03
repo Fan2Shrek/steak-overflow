@@ -4,7 +4,6 @@ namespace Drupal\test\EventSubscriber;
 
 use Drupal\core_event_dispatcher\ThemeHookEvents;
 use Drupal\core_event_dispatcher\Event\Theme\ThemeEvent;
-use Drupal\hook_event_dispatcher\HookEventDispatcherInterface;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
 class ThemeSubscriber implements EventSubscriberInterface

@@ -1,0 +1,29 @@
+uuid: cdc901cf-56a1-4590-b72c-3b7bcf40cecd
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.example.field_description
+    - field.field.paragraph.example.field_question
+    - paragraphs.paragraphs_type.example
+id: paragraph.example.default
+targetEntityType: paragraph
+bundle: example
+mode: default
+content:
+  field_description:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_question:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }
